@@ -1,0 +1,45 @@
+.container_adress {
+  padding-top: 10%;
+  padding-bottom: 20%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #ad8261;
+}
+
+.container_adress h1 {
+  font-family: "Berkshire Swash", cursive;
+  color: white;
+  margin: 0;
+}
+
+.container_adress h2 {
+  color: white;
+}
+
+.dog {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container_adress h1 {
+    font-size: 60px;
+  }
+  .container_adress h2 {
+    font-size: 45px;
+  }
+  .redes a {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container_adress h1 {
+    font-size: 100px;
+  }
+  .container_adress h2 {
+    font-size: 60px;
+  }
+  .redes a {
+    font-size: 100px;
+  }
+}
