@@ -17,6 +17,9 @@
 }
 
 @media (max-width: 320px) {
+  .container_contact {
+    width: 100%;
+  }
   .container_contact h1 {
     font-size: 25px;
   }
